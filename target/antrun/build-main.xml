@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="H:\UniWork\validation and verification\cw1\commons-collections4-4.4-src\commons-collections4-4.4-src\target/apidocs/META-INF">
+    <fileset dir="H:\UniWork\validation and verification\cw1\commons-collections4-4.4-src\commons-collections4-4.4-src">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>
